@@ -37,7 +37,8 @@
 				
 				p.one{
 						border-style: dashed;
-						border-width: 8px
+						border-width: 8px;
+						border-color: #C77CF3;
 				}
 				
 				p.dotted {border-style: dotted;}
