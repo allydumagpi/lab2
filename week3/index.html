@@ -219,10 +219,11 @@
 					img:hover {
 						  opacity: 0.5;
 						}
-					.footer {
-						  background-color: #F1F1F1;
-						  text-align: center;
-						  padding: 10px;
+						
+					.clearfix::after {
+						  content: "";
+						  clear: both;
+						  display: table;
 						}
 		</style>
 </body>
@@ -274,5 +275,7 @@
 		</table>
 		
 	
+		
+		
 </body>
 </html>
