@@ -5,7 +5,7 @@ window.addEventListener ("scroll", function() {
 }); //
 
 let menu = document.querySelector('#menu-icon'); //JavaScript HTML DOM
-let navbar = document.querySelector('.navbar'); //JavaScript HTML DOM
+let navbar = document.querySelector('.navbar'); //JavaScript HTML DOM Navigator
 
 menu.onclick = () => {
 	menu.classList.toggle('bx-x');

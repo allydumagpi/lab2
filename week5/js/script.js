@@ -10,7 +10,7 @@ let navbar = document.querySelector('.navbar'); //JavaScript HTML DOM Navigator
 menu.onclick = () => {
 	menu.classList.toggle('bx-x');
 	navbar.classList.toggle('active');
-};
+}; // JavaScript HTML DOM Element classList
 
 window.onscroll = () => {
 	menu.classList.remove('bx-x');
