@@ -1,11 +1,11 @@
 const header = document.querySelector("header"); //JavaScript HTML DOM
 
 window.addEventListener ("scroll", function() {
-	header.classList.toggle ("sticky", window.scrollY >0);
-});
+	header.classList.toggle ("sticky", window.scrollY >0); //JavaScript HTML DOM addEventListener
+}); //
 
-let menu = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
+let menu = document.querySelector('#menu-icon'); //JavaScript HTML DOM
+let navbar = document.querySelector('.navbar'); //JavaScript HTML DOM
 
 menu.onclick = () => {
 	menu.classList.toggle('bx-x');
