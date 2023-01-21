@@ -10,7 +10,7 @@ let navbar = document.querySelector('.navbar'); //JavaScript HTML DOM Navigator
 menu.onclick = () => {
 	menu.classList.toggle('bx-x');
 	navbar.classList.toggle('active');
-}; // JavaScript HTML DOM Element classList
+}; // I made a mistake on my previous comment on this part, this is the JavaScript Toogle class
 
 window.onscroll = () => {
 	menu.classList.remove('bx-x');
@@ -21,7 +21,11 @@ const sr = ScrollReveal ({
 	distance: '25px',
 	duration: 2500,
 	reset: true
-})
+}) // JavaScript HTML DOM Element classList
+
+function goBack() {
+  window.history.back()
+} //JavaScript Window History
 
 sr.reveal('.home-text',{delay:190, origin:'bottom'})
 
