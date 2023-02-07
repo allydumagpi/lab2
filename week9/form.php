@@ -72,7 +72,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	die("Connection failed: " . $conn->connect_error);
 	}
 	
-	$sql = "INSERT INTO MyGuests (name, comment, email)
+	$sql = "INSERT INTO adumagpi_MyGuests (name, comment, email)
 	VALUES ('$name', '$comment', '$email')";
 	
 	if ($conn->query($sql) === TRUE) {
