@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "webprogmi211";
+$password = "webprogmi211";
 $dbname = "webprogmi211";
 
 // Create connection
@@ -11,7 +11,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT name, comment, email FROM testvi";
+$sql = "SELECT name, comment, email FROM adumagpi_MyGuests";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
