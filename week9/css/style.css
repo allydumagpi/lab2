@@ -351,26 +351,6 @@ form textarea{
     transition: all .40s ease;
     cursor: pointer;
 }
-
-.btn.btn2{
-  display: block;
-  margin: 50px auto;
-  width: fit-content;
-  border: 1px solid #ff004f;
-  padding: 14px 50px;
-  border-radius: 6px;
-  text-decoration: none;
-  color: #fff;
-  transition: background 0.5s;
-}
-
-.btn:hover{
-  background: #ff004f;
-}
-.btn.btn2{
-  display: inline-block;
-  background: #cfbdd3;
-}
 .last-text p{
 	text-align: center;
 	padding: 15px;
